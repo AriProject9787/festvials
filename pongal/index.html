@@ -61,6 +61,9 @@
             margin-bottom: 30%;
             animation: pulse 1.5s infinite;
         }
+        span{
+            color: aqua;
+        }
 
         footer {
             background-color: #333;
@@ -154,7 +157,7 @@
 
     <script>
         // Set the date we're counting down to
-        var countDownDate = new Date("Jan 12, 2025 00:00:00").getTime();
+        var countDownDate = new Date("Jan 14, 2025 00:00:00").getTime();
 
         // Update the countdown every 1 second
         var countdownFunction = setInterval(function() {
@@ -178,7 +181,7 @@
             if (distance < 0) {
                 const name = prompt("Enter your name:");
                 clearInterval(countdownFunction);
-                document.getElementById("countdown").innerHTML = `Happy Pongal 2025 ${name},<br> by Arirama Selvam`;
+                document.getElementById("countdown").innerHTML = `Happy Pongal 2025 ${name},<br> by <span>Arirama Selvam</span>`;
                 document.getElementById("advance").innerHTML = `Happy Pongal 2025 ${name}, by Arirama Selvam`;
 
                 document.getElementById("celebrate").style.display = "block";
