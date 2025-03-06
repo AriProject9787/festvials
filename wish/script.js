@@ -1,22 +1,34 @@
 // List of birthdays with names and dates
 const birthdays = [
+    { name: 'MUTHUKUMAR V', date: new Date('Mar 26, 2025 00:00:00') },
+    { name: 'AKASH M', date: new Date('Apr 12, 2025 00:00:00') },
+    { name: 'MARISELVAM P', date: new Date('May 02, 2025 00:00:00') },
+    { name: 'SIVABALAN S', date: new Date('Jun 14, 2025 00:00:00') },
+    { name: 'DAVID JONES N', date: new Date('Jun 20, 2025 00:00:00') },
+    { name: 'SHEIKANWAR K', date: new Date('Jul 05, 2025 00:00:00') },
     { name: 'Arirama Selvam M', date: new Date('Jul 08, 2025 00:00:00') },
+    { name: 'VILVADURAI L', date: new Date('Aug 17, 2025 00:00:00') },
+    { name: 'MATHESWARAN S', date: new Date('Aug 27, 2025 00:00:00') },
+    { name: 'SRIKARAN K', date: new Date('Sep 09, 2025 00:00:00') },
+    { name: 'MICHAEL SELVIN C', date: new Date('Sep 13, 2025 00:00:00') },
+    { name: 'CHRISTOPHER E', date: new Date('Sep 17, 2025 00:00:00') },
+    { name: 'VIGNESH B', date: new Date('Oct 30, 2025 00:00:00') },
     //{ name: 'Kalai vani A', date: new Date('Sep 12, 2025 00:00:00') },
     //{ name: 'Jesikka M', date: new Date('Jan 18, 2025 00:00:00') },
-    { name: 'AKASH M', date: new Date('Apr 12, 2025 00:00:00') },
-    { name: 'DAVID JONES N', date: new Date('Jun 20, 2025 00:00:00') },
+    
+    
     { name: 'LINGA BHARATH M', date: new Date('Nov 01, 2025 00:00:00') },
-    { name: 'MARISELVAM P', date: new Date('May 02, 2025 00:00:00') },
-    { name: 'MUTHUKUMAR V', date: new Date('Mar 26, 2025 00:00:00') },
+    
+    
     { name: 'SELTON C', date: new Date('Nov 16, 2025 00:00:00') },
-    { name: 'SIVABALAN S', date: new Date('Jun 14, 2025 00:00:00') },
-    { name: 'SRIKARAN K', date: new Date('Sep 09, 2025 00:00:00') },
-    { name: 'CHRISTOPHER E', date: new Date('Sep 17, 2025 00:00:00') },
-    { name: 'MATHESWARAN S', date: new Date('Aug 27, 2025 00:00:00') },
-    { name: 'MICHAEL SELVIN C', date: new Date('Sep 13, 2025 00:00:00') },
-    { name: 'SHEIKANWAR K', date: new Date('Jul 05, 2025 00:00:00') },
-    { name: 'VIGNESH B', date: new Date('Oct 30, 2025 00:00:00') },
-    { name: 'VILVADURAI L', date: new Date('Aug 17, 2025 00:00:00') },
+    
+    
+    
+    
+    
+   
+   
+    
     //{ name: 'Jesikka M', date: new Date('Jan 18, 2025 00:00:00') },
     //{ name: 'Jesikka M', date: new Date('Jan 18, 2025 00:00:00') },
     //{ name: 'Jesikka M', date: new Date('Jan 18, 2025 00:00:00') },
