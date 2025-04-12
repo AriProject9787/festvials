@@ -76,7 +76,10 @@ function updateCountdown(birthday, id) {
         const countdownsCont = document.getElementById('countdown');
         const birthdayMessage = document.createElement('div');
         birthdayMessage.className = 'birthday-message';
-        birthdayMessage.innerHTML = `HAPPY BIRTHDAY, ${birthday.name}!`;
+        birthdayMessage.innerHTML = `HAPPY BIRTHDAY, ${birthday.name}!
+        <marquee behavior="scroll" direction="left" style="color: #ff5722;">
+        🎉 Happy Birthday  ${birthday.name} by Arirama Selvam  🎉
+    </marquee>`;
         countdownsCont.appendChild(birthdayMessage);
         setTimeout(() => {
             alert(`HAPPY BIRTHDAY, ${birthday.name}! by Arirama Selvam`);
