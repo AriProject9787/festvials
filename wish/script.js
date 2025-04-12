@@ -78,10 +78,10 @@ function updateCountdown(birthday, id) {
         birthdayMessage.className = 'birthday-message';
         birthdayMessage.innerHTML = `HAPPY BIRTHDAY, ${birthday.name}!`;
         countdownsCont.appendChild(birthdayMessage);
-        setTimeout(() => {
-            alert(`HAPPY BIRTHDAY, ${birthday.name}! by Arirama Selvam`);
+        //setTimeout(() => {
+            //alert(`HAPPY BIRTHDAY, ${birthday.name}! by Arirama Selvam`);
             
-        }, 5000); 
+        //}, 5000); 
 
         
 
