@@ -34,6 +34,8 @@ const birthdays = [
     //{ name: 'Jesikka M', date: new Date('Jan 18, 2025 00:00:00') },
 ];
 
+
+
 // Function to create a countdown item
 function createCountdownItem(name, id) {
     const countdownItem = document.createElement('div');
@@ -70,6 +72,23 @@ function updateCountdown(birthday, id) {
                now.getFullYear() === birthday.date.getFullYear()) {
         clearInterval(countdownIntervals[id]);
         document.getElementById(`countdown-${id}`).innerHTML = `HAPPY BIRTHDAY, ${birthday.name}!`;
+
+        const countdownsCont = document.getElementById('countdown');
+        const birthdayMessage = document.createElement('div');
+        birthdayMessage.className = 'birthday-message';
+        birthdayMessage.innerHTML = `HAPPY BIRTHDAY, ${birthday.name}!`;
+        countdownsCont.appendChild(birthdayMessage);
+        setTimeout(() => {
+            alert(`HAPPY BIRTHDAY, ${birthday.name}! by Arirama Selvam`);
+            
+        }, 5000); 
+
+        
+
+       
+
+
+
     } else {
         clearInterval(countdownIntervals[id]);
         document.getElementById(`countdown-${id}`).innerHTML = `${birthday.name}'s Birthday has passed.`;
